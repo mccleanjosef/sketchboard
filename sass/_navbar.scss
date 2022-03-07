@@ -1,0 +1,33 @@
+.navbar-brand{
+    font-family: 'Permanent Marker', cursive;
+    color: $orange;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-dark .navbar-brand{
+    color: $orange;
+}
+
+.bg-dark{
+    background-color: $midgreen !important;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    padding-right: 8%;
+}
+
+.navbar{
+    width: 100%;
+    padding-left: 5%;
+    height: 80px;
+}
+
+.username{
+    padding-right: 5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: $orange;
+    letter-spacing: 0.1rem;
+}

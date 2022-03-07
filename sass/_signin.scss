@@ -1,0 +1,105 @@
+.signin{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: $darkgreen;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        font-size: 3rem;
+        padding-bottom: 5rem;
+    }
+    &__btn{
+        width: 100%;
+        font-size: 3rem;
+        color: $darkgreen;
+        background: $orange;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        padding-top: 0.9rem;
+        border: none;
+    }
+    &__reg-btn{
+        background: $darkgreen;
+        width: 100%;
+        font-size: 2rem;
+        color: $orange;
+        border-radius: 1rem;
+        border: none;
+    }
+    &__email{
+        background: $lightgreen;
+        color: $orange;
+        padding: 0.5rem;
+        font-size: 2rem;
+        border: none;
+        margin-bottom: 0.2rem;
+        padding-left: 3rem;
+        &::placeholder{
+            color: $orange;
+            opacity: 1;
+        }
+    }
+    &__password{
+        background: $lightgreen;
+        color: $orange;
+        padding: 0.5rem;
+        font-size: 2rem;
+        border: none;
+        padding-left: 3rem;
+        margin-bottom: 0.2rem;
+        &::placeholder{
+            color: $orange;
+            opacity: 1;
+        }
+    }
+    &__checkbox{
+        margin-top: 2rem;
+    }
+    &__link{
+        color: $red;
+    }
+    &__signup{
+        width: 100%;
+        font-size: 3rem;
+        color: $darkgreen;
+        background: $orange;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        padding-top: 0.9rem;
+        border: none;
+    }
+}
+
+.form-signin{
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: $midgreen;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: $red;
+}
+
+.logo{
+    font-family: 'Permanent Marker', cursive;
+    color: $orange;
+    font-size: 6.4rem;
+    margin-bottom: 4rem;
+}
+
+.register{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: $darkgreen;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}

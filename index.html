@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="signin">
+        <h1 class="logo">Sketchboard</h1>
+        <form class="form-signin" data-bitwarden-watching="1">
+            <h3 class="h3 mb-3 signin__title">Please sign in</h3>
+            <input type="email" class="form-control signin__email" placeholder="Username" required="" autofocus="">
+            <input type="password" id="inputPassword" class="form-control signin__password" placeholder="Password" required="">
+            <div class="checkbox mb-3">
+              <label class="signin__checkbox">
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block signin__btn" type="submit">Sign in</button>
+            <button class="btn btn-lg btn-primary btn-block signin__reg-btn" type="button">Register</button>
+        </form>
+    </div>
+
+    <div class="register">
+        <h1 class="logo">Sketchboard</h1>
+        <form class="form-signin" data-bitwarden-watching="1">
+            <h3 class="h3 mb-3 signin__title">Create Account</h3>
+            <input class="form-control signin__email" placeholder="Create Username" required="" autofocus="">
+            <input type="email" id="accountEmail" class="form-control signin__email" placeholder="Email address" required="" autofocus="">
+            <input type="password"class="form-control signin__password" placeholder="Password" required="">
+            <input type="password" class="form-control signin__password" placeholder="Confirm Password" required="">
+            <div class="checkbox mb-3">
+              <label class="signin__checkbox">
+                <input type="checkbox" value="remember-me"> I agree to all
+                <a class="signin__link" href="">Terms of service</a>
+              </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block signin__signup" type="submit">Sign Up</button>
+            <p>Already have an account &nbsp</p><a class="signin__link go-to-sign-in" href="">Login here</a>
+        </form>
+    </div>
+
+
+    
+    <main class="main">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">SketchBoard</a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="navbarsExample03" style="">
+              <a class="username" href="">Username</a>
+            <form class="form-inline my-2 my-md-0">
+              <input class="form-control" type="text" placeholder="Search">
+            </form>
+          </div>
+        </nav>
+
+        <div class="mess-ctn"></div>
+
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4">Sidebar</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                  Dashboard
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                  Orders
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                  Customers
+                </a>
+              </li>
+            </ul>
+            <hr>
+            <div class="dropdown">
+              <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong>mdo</strong>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1" style="">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li id="signOutLink"><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+        </div>
+
+
+    </main>
+    
+    
+
+    <!-- jQuery -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>

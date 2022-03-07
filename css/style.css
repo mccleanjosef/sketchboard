@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  background: #014040;
+  font-family: "Kalam", cursive;
+}
+
+.signin {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #014040;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.signin__title {
+  font-size: 3rem;
+  padding-bottom: 5rem;
+}
+.signin__btn {
+  width: 100%;
+  font-size: 3rem;
+  color: #014040;
+  background: #F27405;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding-top: 0.9rem;
+  border: none;
+}
+.signin__reg-btn {
+  background: #014040;
+  width: 100%;
+  font-size: 2rem;
+  color: #F27405;
+  border-radius: 1rem;
+  border: none;
+}
+.signin__email {
+  background: #03A678;
+  color: #F27405;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  margin-bottom: 0.2rem;
+  padding-left: 3rem;
+}
+.signin__email::placeholder {
+  color: #F27405;
+  opacity: 1;
+}
+.signin__password {
+  background: #03A678;
+  color: #F27405;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  padding-left: 3rem;
+  margin-bottom: 0.2rem;
+}
+.signin__password::placeholder {
+  color: #F27405;
+  opacity: 1;
+}
+.signin__checkbox {
+  margin-top: 2rem;
+}
+.signin__link {
+  color: #731702;
+}
+.signin__signup {
+  width: 100%;
+  font-size: 3rem;
+  color: #014040;
+  background: #F27405;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding-top: 0.9rem;
+  border: none;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background: #02735E;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: #731702;
+}
+
+.logo {
+  font-family: "Permanent Marker", cursive;
+  color: #F27405;
+  font-size: 6.4rem;
+  margin-bottom: 4rem;
+}
+
+.register {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #014040;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: "Permanent Marker", cursive;
+  color: #F27405;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.navbar-dark .navbar-brand {
+  color: #F27405;
+}
+
+.bg-dark {
+  background-color: #02735E !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  padding-right: 8%;
+}
+
+.navbar {
+  width: 100%;
+  padding-left: 5%;
+  height: 80px;
+}
+
+.username {
+  padding-right: 5rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #F27405;
+  letter-spacing: 0.1rem;
+}
+
+.main {
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.mess-ctn {
+  width: 70vw;
+  height: 100%;
+}
+
+.d-flex {
+  width: 30vw;
+  height: 100vh;
+  font-size: 1.5rem;
+}
